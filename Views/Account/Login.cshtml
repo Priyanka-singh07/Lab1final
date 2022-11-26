@@ -1,0 +1,18 @@
+﻿@model Lab1final.Models.LoginViewModel;
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login Here</h1>
+
+
+<form method="post">
+
+    <div>UserName : </div>
+    <div><input type="text" asp-for="UserName" /></div>
+
+    <div>Password :</div>
+    <div><input type="text" asp-for="Password" /></div>
+    <div><input type="submit" value="Login" /></div>
+
+</form>
